@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hanxia.duorougardon"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+   
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/toppic"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme" >
+        <activity
+            android:name="com.hanxia.duorougardon.Welcom"
+            android:label="@string/app_name" 
+            android:icon="@drawable/toppic">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hanxia.duorougardon.Login_in"
+            android:label="@string/login_in"
+            android:icon="@drawable/toppic">
+          
+        </activity>
+        <activity
+            android:name="com.hanxia.duorougardon.MainActivity"
+            android:label="@string/tabhost" 
+            android:icon="@drawable/toppic">
+            
+        </activity>
+        <activity
+            android:name="com.hanxia.duorougardon.RegistActivity"
+            android:label="@string/tabhost" 
+            android:icon="@drawable/toppic">
+            
+        </activity>
+         <activity
+            android:name="com.hanxia.duorougardon.newthings.Send_Write"
+            android:label="@string/tabhost" 
+            android:icon="@drawable/toppic">
+            
+        </activity>
+    </application>
+
+</manifest>

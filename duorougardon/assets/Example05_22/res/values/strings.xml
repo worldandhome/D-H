@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 程序中用到的字符常量  -->
+    <string name="app_name">Example05_22</string>
+</resources>
